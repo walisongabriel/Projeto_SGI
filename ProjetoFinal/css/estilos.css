@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+/* Diminuindo o tamanho da fonte em telas menores */
+@media(max-width: 560px){
+    body{
+        font-size: 0.7em;
+    }
+}
+
+/* estilo da area de login------------------------------------------------- */
+.body_login{
+    
+    background-image: linear-gradient( rgba(42, 214, 236, 0.74), rgb(27, 3, 160));
+}
+.area_form{
+    background: white;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.26);
+}
+
+/* estilo do cabeçalhos das paginas------------------------------------------- */
+.DivTituloCabecalho{
+    background: black;
+    color: white;
+}
+
+.SpanImg > img{
+    width: 40px;
+    margin-left: 10px;
+}
+
+/* Area acima da tabela de clientes--------------------------------------------- */
+.BotaoCadastrar{
+    color: white;
+}
+
+
+/* Area lateral das paginas----------------------------------------------------- */
+.AreaLateral{
+    padding: 5px;
+    background: lightgray;
+}
+.AreaLateral  a{
+
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.AreaLateral img{
+    width: 20px;
+}
+
+/* Area de botões de cadastro e voltar----------------------------------------- */
+.Botoes{
+    padding: 10px 0px;
+}
+.Botoes > a{
+    border-radius: 10px;
+}
+
+/* Corpo do sistema---------------------------------------------- */
+
+.CorpoSistema{
+    background-color: rgba(211, 211, 211, 0.548);
+}
+.Conteudos{
+    height: 94vh;
+}
+
+/* Tabela de clientes --------------------------------------------*/
+.cabecalhoTabela{
+    color: white;
+}
+
+.Tabela{
+    background: white;
+    border-radius: 10px 10px 0px 0px ;
+}
+.BordaDireita{
+    border-radius: 10px 0px 0px 0px;
+}
+.BordaEsquerda{
+    border-radius: 0px 10px 0px 0px;
+}
+
+
+
+
+
+/* ESTILO DA AREA DE CADASTRO DOS CLIENTES ----------------------------------------------*/
+.AreaFormularioCadastro{
+    background: white;
+    border-radius: 10px 10px 0px 0px;
+
+}
+.AreaFormularioCadastro h4{
+    background: black;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+}
+.BotaoSalvarCadastro{
+    margin-top: 30px;
+    width: 120px;
+    color: white;
+}
+.MsgErro{
+    margin-top: 30px;
+    color: red;
+}
+
+
+
+
+input::-webkit-calendar-picker-indicator{
+    display: none;
+}
+
+input[type="date"]::-webkit-input-placeholder{ 
+    visibility: hidden !important;
+}
